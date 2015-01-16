@@ -35,3 +35,15 @@ user    0m53.569s
 sys     0m12.576s
 </pre>
 
+## Run Ruby
+```sh
+time ( i=3000 ; while [ "$i" -gt 0 ]; do ruby c.rb >/dev/null ; i=$(($i-1)); done )
+```
+
+### Result
+<pre>
+real    0m41.135s
+user    0m27.719s
+sys     0m9.803s
+</pre>
+
