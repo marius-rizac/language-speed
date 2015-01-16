@@ -35,7 +35,7 @@ user    0m53.569s
 sys     0m12.576s
 </pre>
 
-## Run Ruby
+## Run Ruby (1.9.3)
 ```sh
 time ( i=3000 ; while [ "$i" -gt 0 ]; do ruby c.rb >/dev/null ; i=$(($i-1)); done )
 ```
